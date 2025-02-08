@@ -54,7 +54,7 @@ def display_text(state):
         print("[Screen 0] Initial screen. Enter anything to proceed.")
 
 def main():
-    state = State(screen_num=0)
+    state = State(screen_num = 0)
     while True:
         display_text(state)
         inp = input("> ")
